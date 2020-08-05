@@ -1,0 +1,29 @@
+    .container {
+        /*border: solid black;*/
+        align-items: center;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    form {
+        /*border: solid black 2px;*/
+        text-align: center;
+        width: auto;
+        align-items: center;
+    }
+    
+    .yourScore {
+        font-size: 35px;
+    }
+    
+    #submitBtn {
+        background-color: #333;
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+        text-decoration: none;
+    }

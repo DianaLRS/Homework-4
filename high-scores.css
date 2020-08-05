@@ -1,0 +1,29 @@
+    .btn {
+        background-color: #333;
+        align-items: center;
+        justify-content: center;
+        margin: 13rem
+    }
+    
+    form {
+        /*border: solid black 2px;*/
+        text-align: center;
+        width: auto;
+        align-items: center;
+    }
+    
+    .previousScores {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-top: 5rem;
+        /*  border: solid black*/
+    }
+    
+    label {
+        font-size: 35px;
+    }
+    
+    .container {
+        /*border: solid black;*/
+    }

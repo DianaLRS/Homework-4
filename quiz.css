@@ -1,0 +1,32 @@
+        /*.quiz-container {
+        width: 100vw;
+        height: 100vw;
+        align-items: center;
+        border: solid;
+        margin-top: 4rem;*/
+        
+        #option-A,
+        #option-B,
+        #option-C,
+        #option-D {
+            margin-bottom: 1rem;
+        }
+        
+        .quiz {
+            background-color: #333;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: 0 auto;
+            width: 50rem;
+        }
+        
+        h1 {
+            font-size: 35px;
+            padding-left: 25px;
+            padding-top: 25px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: 0 auto;
+        }
