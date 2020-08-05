@@ -9,3 +9,5 @@ When the user clicks one of the options, the user is directed to the next quesit
 When the user answers the last question, the user is then re-directed to submit their innitials. 
 
 Each HTML page has an assigned CSS page and one shares JS page. All pages are media responsive without the use of media queries. 
+
+link to website: https://dianalrs.github.io/Homework-4/
