@@ -2,6 +2,8 @@
 var question = document.querySelector("#question");
 var answerChoices = Array.from(document.querySelectorAll(".quiz"));
 var timeEl = document.querySelector(".time")
+var scoreCount = document.getElementById("currentScore")
+    //console.log(scoreCount)
 
 //Set the Variables for questions and answers of the quiz. Create array for the Questions and Answers. 
 var questionsArray = [
@@ -81,14 +83,16 @@ var currentQuestionEl = {};
 var questionTracker = 0;
 var questions = [];
 var answers = [];
-var acceptingAns = false;
+
 
 //creating Var for the array of questions that we will use as index values inside the function
 var questionsArrayIndex
 
 //Track the game score. Assign value to correct questiions.
 var correctAns = 20;
-var scoreCount = 0;
+scoreCount = 0;
+
+
 //  Start the Quiz
 function startQuiz() {
     questionTracker = 0;
@@ -108,7 +112,7 @@ function nextQuestion() {
     questionsArrayIndex = Math.floor(Math.random() * questions.length);
     currentQuestionEl = questions[questionsArrayIndex];
     question.innerHTML = currentQuestionEl.question
-    console.log(currentQuestionEl)
+        //console.log(currentQuestionEl)
     questionTracker++;
 
     answerChoices.forEach(choice => {
@@ -123,16 +127,16 @@ answerChoices.forEach(choice => {
 
         var userChoice = e.target;
         var userAnswer = userChoice.dataset["index"];
-        console.log(userAnswer);
+        //console.log(userAnswer);
         questions.splice(questionsArrayIndex, 1);
-
         nextQuestion();
 
     });
+
+
+
 });
 
 startQuiz();
-
-console.log("the save button")
 
 // Save High Score:
